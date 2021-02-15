@@ -190,13 +190,13 @@ func TestLoadIgnored(t *testing.T) {
 
 func TestLoadFirstBackendWins(t *testing.T) {
 	s := struct {
-		Age  int    `config:"age"`
+		Age int `config:"age"`
 	}{}
 
 	st1 := store{
-		"age":  "10",
+		"age": "10",
 	}
-	st2 := store {
+	st2 := store{
 		"age": "77",
 	}
 

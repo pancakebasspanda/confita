@@ -24,6 +24,7 @@ require (
 	github.com/pkg/errors v0.8.1
 	github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829 // indirect
 	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90 // indirect
+	github.com/sirupsen/logrus v1.7.0
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/stretchr/testify v1.4.0
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
@@ -31,7 +32,6 @@ require (
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	go.etcd.io/bbolt v1.3.2 // indirect
 	golang.org/x/crypto v0.0.0-20190506204251-e1dfcc566284 // indirect
-	golang.org/x/sys v0.0.0-20190508220229-2d0786266e9c // indirect
 	gopkg.in/yaml.v2 v2.2.2
 )
 
